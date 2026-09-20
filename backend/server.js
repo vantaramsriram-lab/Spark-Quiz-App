@@ -8,7 +8,11 @@ connectDB();
 
 const app = express();
 
-app.use(cors());
+app.use(cors(
+  {
+  origin: "https://spark-quiz-app.vercel.app"
+  }
+));
 app.use(express.json());
 
 // Routes

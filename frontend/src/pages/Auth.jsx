@@ -90,7 +90,7 @@ const Auth = () => {
       <div className="w-full max-w-md relative z-10 animate-slideUp flex flex-col">
         {/* Logo/Header */}
         <div className="flex flex-col items-center mb-8">
-          <img src={logo} alt="" className='w-50 h-50'/>
+          <img src={logo} alt="" className='w-35 h-35'/>
           <p className="text-[#8295a1] tracking-widest">Feel the SPARK</p>
         </div>
 
